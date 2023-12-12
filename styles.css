@@ -49,6 +49,6 @@ li {
 /* Media query para dispositivos móviles */
 @media (max-width: 767px) {
     body {
-        grid-template-columns: 6fr; /* Cambié a una sola columna para dispositivos móviles */
+        grid-template-columns: repeat(4, 3fr);
     }
 }

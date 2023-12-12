@@ -51,7 +51,7 @@ li {
 /* Media query para dispositivos móviles */
 @media (max-width: 767px) {
     body {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 2fr);
         font-size: 14px; /* Ajusta según sea necesario */
     }
 

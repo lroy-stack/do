@@ -45,3 +45,10 @@ li {
 .epica { background-color: #f59b7d; }
 .legendaria { background-color: #c888e6; }
 .mitica { background-color: #ff5fba; }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 767px) {
+    body {
+        grid-template-columns: 6fr; /* Cambié a una sola columna para dispositivos móviles */
+    }
+}

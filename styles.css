@@ -12,11 +12,13 @@ body {
     border-radius: 8px;
     overflow: hidden;
     background-color: #f9f9f9;
+    max-width: 100%; /* Ajusta según sea necesario */
 }
 
 .imagen-carta {
     max-width: 100%;
-    height: auto;
+    height: 150px; /* Ajusta según sea necesario */
+    object-fit: cover; /* Ajusta según sea necesario */
     border-radius: 5px;
 }
 
@@ -56,9 +58,16 @@ li {
     .carta {
         padding: 5px;
         margin: 5px;
+        max-width: 100%; /* Ajusta según sea necesario */
+    }
+
+    .imagen-carta {
+        height: 100px; /* Ajusta según sea necesario */
     }
 
     h3 {
         font-size: 1rem; /* Ajusta según sea necesario */
+        max-height: 2.4rem; /* Ajusta según sea necesario */
+        overflow: hidden;
     }
 }
